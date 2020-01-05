@@ -1,0 +1,15 @@
+{
+  "name": "bakery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url /bakery/"
+  },
+  "repository": "https://gitlab.eemi.tech/ruben.abehsera/bakery-project.git",
+  "author": "Ruben Abehsera <ruben.abehsera@eemi.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.24.2"
+  }
+}

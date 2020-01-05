@@ -1,0 +1,688 @@
+.BakeryWithLove {
+    background: url(../images/background-pastrywithlove.png) no-repeat;
+    padding-bottom: 250px;
+    position: relative;
+}
+
+.Top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: white;
+    font-family: 'Alegreya', serif;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.entreprisename {
+    font-size: 60px;
+    margin-left: 20px;
+    font-family: 'Scriptina', arial;
+}
+
+.menu-items {
+    display: flex;
+}
+
+.item {
+    list-style-type: none;
+    margin-left: 80px;
+    font-size: 14px;
+}
+
+.logo-items {
+    width: 330px;
+}
+
+.logo-item {
+    width: 10px;
+    height: 12px;
+    margin-right: 12px;
+}
+
+.CentralText {
+    text-align: center;
+}
+
+.PastryText {
+    font-size: 94px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-family: 'Alegreya', serif;
+}
+
+.centrallittletext {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    margin-top: 140px;
+    margin-bottom: 100px;
+    font-family: 'Alegreya', serif;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    width: 200px;
+    padding: 30px 0;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Alegreya', serif;
+    border: dashed;
+}
+
+.circle-bread {
+    height: 70px;
+    width: 70px;
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -2%;
+}
+
+.bread-icon {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.art {
+    background: white;
+    display: flex;
+    padding: 50px;
+}
+
+.left-part {
+    width: 50%;
+    position: relative;
+
+}
+
+.art-title {
+    font-family: 'Alegreya', serif;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.art-subtitle {
+    font-family: 'Alegreya', serif;
+    font-size: 14px;
+    text-align: center;
+    color: #ab886c;
+    margin-bottom: 50px;
+}
+
+.art-text {
+    font-family: 'Myriad Pro', serif;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.chef {
+    font-family: 'Alegreya', serif;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.chef-gaspare {
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar-one {
+    position: absolute;
+    left: 25%;
+    transform: translateY(-20px);
+}
+
+.bar-two {
+    position: absolute;
+    left: 25%;
+    transform: translateY(20px);
+}
+
+.bar-three {
+    position: absolute;
+    left: 58%;
+    transform: translateY(-20px)
+}
+
+.bar-four {
+    position: absolute;
+    left: 58%;
+    transform: translateY(20px)
+}
+
+.firstname {
+    font-family: 'Alegreya', serif;
+    font-size: 24px;
+    margin-right: 35px;
+}
+
+.secondame {
+    font-family: 'Alegreya', serif;
+    font-size: 24px;
+    margin-left: 35px;
+}
+
+.gaspare-inspiration {
+    margin-top: 50px;
+    font-family: 'Scriptina', arial;
+    font-size: 24px;
+    text-align: center;
+    color: #ab886c;
+}
+
+.right-part {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-top: 100px;
+    position: relative;
+}
+
+.tastegood {
+    position: absolute;
+    left: 25%;
+    transform: translateY(50%);
+}
+
+.testgood-text {
+    position: absolute;
+    left: 36%;
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    text-align: center;
+    color: #c9b176;
+    transform: translateY(230px);
+}
+
+.quotation-top {
+    position: absolute;
+    left: 23%;
+    transform: translateY(10px)
+}
+
+.quotation-bot {
+    position: absolute;
+    left: 75%;
+    transform: translateY(100px)
+}
+
+.tasty-pancakes {
+    background: url(../images/background-trois.png)no-repeat;
+    padding: 85px;
+}
+
+.middle-part {
+    display: flex;
+    background: white;
+    position: relative;
+    width: 900px;
+    margin-top: 70px;
+    margin-left: 155px;
+}
+
+.pancakes-part {
+    background: url(../images/pancake-picture.png) no-repeat;
+    width: 40%;
+    background-position: right 40% bottom 45%;
+    ;
+}
+
+.stars-left {
+    position: absolute;
+    top: 35%;
+    left: 30px;
+}
+
+.pancake-text-part {
+    width: 50%;
+    padding: 50px;
+    position: relative;
+}
+
+.title-pancakes {
+    text-align: left;
+    font-size: 48px;
+    font-family: 'Alegreya', serif;
+    color: #56534c;
+    margin-bottom: 10px;
+
+}
+
+.subtitle-pancakes {
+    color: #a47d5e;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-left: -3px;
+    margin-bottom: 75px;
+}
+
+.text-pancakes {
+    color: #000;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.stars-right {
+    margin-bottom: 50px;
+}
+
+.mill {
+    position: absolute;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.three-circle-food {
+    justify-content: center;
+}
+
+.arrow-l {
+    margin-bottom: 30px;
+}
+
+.sandwich {
+    margin-left: 20px;
+}
+
+.raspberry {
+    margin-left: 20px;
+}
+
+.mango {
+    position: absolute;
+    right: 23%;
+    z-index: 2;
+}
+
+.arrow-r {
+    position: absolute;
+    z-index: 3;
+    right: 70px;
+    transform: translateY(95%);
+}
+
+.white-box-pancakes {
+    background: url(../images/box-pancakes-back.png)no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: -20%;
+    transform: translateY(-60%);
+}
+
+.pancakes-white-box-title {
+    color: #a47d5e;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.pancakes-white-box-time {
+    color: #dfc691;
+    font-size: 92px;
+    text-align: center;
+}
+
+.pancakes-white-box-mesure {
+    color: #979285;
+    font-size: 18px;
+    text-align: center;
+}
+
+.side-menu-logo {
+    position: absolute;
+    background: white;
+    right: 57%;
+    transform: translateY(200px);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.menu-log {
+    position: absolute;
+    right: 57%;
+    transform: translateY(50%);
+    margin-top: 10px;
+}
+
+.breakfast {
+    background: url(../images/breakfast-background.png)no-repeat;
+    padding-top: 60px;
+    display: flex;
+}
+
+.breakfast-text-part {
+    width: 50%;
+}
+
+.breakfast-title {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.breakfast-subtitle {
+    font-size: 18px;
+    text-align: center;
+    color: #c8a593;
+    margin-bottom: 50px;
+}
+
+.item-breakfast-title {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.item-breakfast-subtitle {
+    font-size: 16px;
+    text-align: center;
+    color: #979795;
+    margin-bottom: 43px;
+}
+
+.item-price {
+    font-size: 36px;
+    color: dfc691;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.breakfast-menu {
+    background: url(../images/menu-breakfast.png)no-repeat;
+    width: 470px;
+    position: relative;
+}
+
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.year {
+    margin-right: 80px;
+}
+
+.direction-est {
+    margin-left: 30px;
+}
+
+.line-breakfast {
+    margin-left: 30px;
+    margin-top: -40px;
+    margin-bottom: 70px;
+}
+
+.menu-breakfast-title {
+    text-align: center;
+    color: #56534c;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.menu-breakfast-text {
+    text-align: center;
+    color: #56534c;
+    font-size: 14px;
+    margin-top: 70px;
+}
+
+.button-breakfast {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    width: 200px;
+    padding: 30px 0;
+    color: #a47d5e;
+    background: rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Alegreya', serif;
+    border: 1px #9e9c93 solid;
+    margin-top: 70px;
+}
+
+.corn-logo {
+    position: absolute;
+    left: 60%;
+    transform: translateY(-43%);
+}
+
+.jibarito-sandwich {
+    padding-top: 40px;
+    background: url(../images/background-jibarito.png)no-repeat;
+    position: relative;
+}
+
+.jibarito-title {
+    position: absolute;
+    right: 36%;
+    top: 0;
+    text-align: center;
+    color: #56534c;
+    font-size: 48px;
+    margin-top: 30px;
+    z-index: 2;
+}
+
+.jibarito-mill {
+    position: absolute;
+    right: 47%;
+    top: 0;
+    z-index: 1;
+}
+
+.jibartio-subtitle {
+    text-align: center;
+    color: #a47d5e;
+    font-size: 14px;
+    position: absolute;
+    right: 43%;
+    top: 8%;
+}
+
+.jibarito-container {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.jibarito-left-part {
+    width: 30%;
+    margin-top: 30px;
+}
+
+.jibarito-circle {
+    width: 118px;
+    height: 119px;
+    border-radius: 50%;
+    margin-left: 158px;
+}
+
+.jibarito-title-text {
+    text-align: center;
+    color: #a47d5e;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.jibarito-text {
+    color: #56534c;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.jibarito-right-part {
+    margin-top: 130px;
+    position: relative;
+}
+
+.box-one {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    top: -4.5%;
+    background: url(../images/shadow-box.png)no-repeat;
+}
+
+.box-two {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    top: 28%;
+    background: url(../images/shadow-box.png)no-repeat;
+}
+
+.box-three {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    top: 60%;
+    background: url(../images/box-three.png)no-repeat;
+}
+
+.jibarito-box-title {
+    color: #a47d5e;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
+.jibarito-box-time {
+    text-align: center;
+    color: #56534c;
+    font-size: 60px;
+}
+
+.jibarito-box-mesure {
+    color: #979285;
+    font-size: 18px;
+    text-align: center;
+}
+
+.jibarito-white-box-title {
+    color: #a47d5e;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.jibarito-white-box-time {
+    color: #dfc691;
+    font-size: 92px;
+    text-align: center;
+}
+
+.jibarito-white-box-mesure {
+    color: #979285;
+    font-size: 18px;
+    text-align: center;
+}
+
+.white-recipe {
+    background: white;
+    position: absolute;
+    left: -4%;
+    width: 180px;
+    height: 66px;
+    transform: translateY(-45px);
+    border: 1px #dfc691 dashed;
+}
+
+.white-recipe-text {
+    text-transform: uppercase;
+    color: #dfc691;
+    text-align: center;
+    margin-top: 23px;
+    font-size: 18px;
+}
+
+.page-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    color: #56534c;
+    font-family: 'Alegreya', serif;
+    background: url(../images/background-jibarito.png)no-repeat;
+    height: 100px;
+    position: relative;
+    padding: 60px;
+}
+
+.footer-menu-items-one {
+    margin-top: 40px;
+    display: flex;
+}
+
+.footer-item {
+    margin-left: 60px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.footer-name {
+    font-family: 'Scriptina', arial;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.line-footer-one {
+    position: absolute;
+    top: 30%;
+    transform: translateX(-70%);
+}
+
+.line-footer-two {
+    position: absolute;
+    top: 65%;
+    transform: translateX(-70%);
+}
+
+.line-footer-three {
+    position: absolute;
+    top: 30%;
+    transform: translateX(85%);
+}
+
+.line-footer-four {
+    position: absolute;
+    top: 65%;
+    transform: translateX(85%);
+}
